@@ -1,0 +1,28 @@
+[user]
+    email = abc@abc.com
+	name = John Doe
+[core]
+#	excludesfile = /home/socrates/.gitignore_global
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    log = auto
+[http]
+    postBuffer = 524288000
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    st = status
+    co = checkout
+    di = diff
+    dic = diff --cached
+    cm = commit
+    br = branch
+    dif = diff
+[merge]
+    tool = vimdiff
+[credential]
+    helper = store
+[push]
+    default = simple
